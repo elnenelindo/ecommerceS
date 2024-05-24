@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bolsa de compras - Worlwide Sneakers</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="/css/cart.css" />
+  </head>
+  <body>
+    <!-- ENCABEZADO PRINCIPAL -->
+    <header>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#">Inicio</a></li>
+          <li><a class="menu__item" href="#">Marcas</a></li>
+          <li><a class="menu__item" href="#">Contactanos</a></li>
+          <li><a class="menu__item" href="#">Soporte al cliente</a></li>
+          <li>
+            <a class="menu__item" href="#">
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="logo">
+        <h1>BOLSA DE COMPRAS</h1>
+      </div>
+
+      <nav class="navigation">
+        <ul>
+          <li>
+            <a href="index.html"
+              ><span class="material-symbols-outlined"> home </span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- CONTENIDO DEL SHOPPING BAG -->
+    <div class="header">
+      <h3 class="heading">PRODUCTOS</h3>
+      <h5 class="action">Quitar todo</h5>
+    </div>
+    <section class="container">
+      <div class="cart-items">
+        <img src="/assets/highwhiteforum.jpeg" alt="" />
+        <div class="about">
+          <h1 class="title">Adidas Forum High</h1>
+          <h3 class="subtitle">Crema</h3>
+          <div class="colour" id="cream"></div>
+        </div>
+        <div class="”counter”">
+          <div class="btn">+</div>
+          <div class="count">2</div>
+          <div class="btn">-</div>
+        </div>
+        <div class="prices">
+          <div class="amount"><span>$</span>199,999</div>
+        </div>
+      </div>
+      <div class="cart-items">
+        <img src="/assets/descarga.jpeg" alt="" />
+        <div class="about">
+          <h1 class="title">Nike Air Jordan 1</h1>
+          <h3 class="subtitle">Verde</h3>
+          <div class="colour" id="green"></div>
+        </div>
+        <div class="”counter”">
+          <div class="btn">+</div>
+          <div class="count">2</div>
+          <div class="btn">-</div>
+        </div>
+        <div class="prices">
+          <div class="amount"><span>$</span>149,999</div>
+        </div>
+      </div>
+      <div class="cart-items">
+        <img src="/assets/480.jpeg" alt="" />
+        <div class="about">
+          <h1 class="title">New Balance 480</h1>
+          <h3 class="subtitle">Verde</h3>
+          <div class="colour" id="green"></div>
+        </div>
+        <div class="”counter”">
+          <div class="btn">+</div>
+          <div class="count">2</div>
+          <div class="btn">-</div>
+        </div>
+        <div class="prices">
+          <div class="amount"><span>$</span>124,999</div>
+        </div>
+      </div>
+      <hr />
+      <div class="checkout">
+        <div class="total">
+          <div>
+            <div class="Subtotal">Sub-Total</div>
+            <div class="items">3 productos</div>
+          </div>
+          <div class="total-amount">$5milmillones</div>
+        </div>
+        <!-- <button class="button">Pagar</button> -->
+        <a href="payment.html" class="button">Pagar</a>
+      </div>
+    </section>
+
+    <!--PIE DE PAGINA -->
+    <footer>
+      <div class="container-footer">
+       <div class="footer-title">
+        <h1>Productos Relacionados</h1>
+       </div>
+       <div class="footer-products">
+        <div class="btn-left">
+          <i class="fa-solid fa-chevron-left"></i>
+        </div>
+        <img src="/assets/highwhiteforum.jpeg" alt="" />
+        <img src="/assets/blacke.jpeg" alt="" />
+        <img src="/assets/Diy.jpeg" alt="" />
+        <div class="btn-right">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+       </div>
+      <p>&copy; 2024 BY sebastian</p>
+    </footer>
+    <script src="/js/shop_cart.js"></script>
+  </body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - WorldWide Sneakers</title>
+
+    <!-- LINK PARA CSS, ICONOS Y FUENTES  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="/css/Style.css" />
+    <script src="/js/index.js"></script>
+  </head>
+
+  <body>
+    <!-- <div class="sales"> Ofertas limitadas | 50% descuento </div> -->
+    <header>
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#">Inicio</a></li>
+          <li>
+            <a class="menu__item" href="shop_cart.html" target="_blank">Bolsa de compras</a>
+          </li>
+          <li><a class="menu__item" href="#">Marcas</a></li>
+          <li><a class="menu__item" href="#">Contactanos</a></li>
+          <li><a class="menu__item" href="#">Soporte al cliente</a></li>
+          <li>
+            <a class="menu__item" href="#">
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="logo">
+        <a href="index.html" target="_blank">
+          <h1>WorldWide Sneakers</h1>
+        </a>
+      </div>
+      <div class="accessibility-controls">
+        <button id="toggle-dark-mode" class="accessibility-btn"><i class="fa-solid fa-moon"></i></button>
+        <button id="increase-font-size" class="accessibility-btn"><i class="fa-solid fa-font"></i></button>
+      </div>
+
+      <nav class="navigation">
+        <ul>
+          <li></li>
+
+          <li>
+            <a href="shop_cart.html" target="_blank">
+              <span class="material-symbols-outlined"> shopping_bag </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="slider">
+      <img src="/assets/slideradidas.jpeg" alt="" />
+      <img src="/assets/vans.jpeg" alt="" />
+      <img src="/assets/slidernewba.jpeg" alt="" />
+      <img src="/assets/CortezNike.jpeg" alt="" />
+    </div>
+
+    <!-- SERIE DE PRODUCTOS PRINCIPALES  -->
+
+    <section class="container-products">
+      <div class="wrap">
+        <div class="search">
+           <input type="text" class="searchTerm" placeholder="adidas samba...">
+           <button type="submit" class="searchButton">
+             <i class="fa fa-search"></i>
+          </button>
+        </div>
+     </div>
+
+      <h1>TENDENCIAS</h1>
+
+      <div class="container2">
+        <div class="card">
+          <div class="imgBx">
+            <img
+              src="/assets/adidas.png"
+              alt="nike-air-shoe"
+            />
+          </div>
+
+          <div class="contentBx">
+            <h2>ADIDAS FORUM</h2>
+            <a href="detail_product.html" target="_blank">VER DETALLES</a>
+            <a href="shop_cart.html" target="_blank" class="addToCartBtn"
+              >AGREGAR A LA BOLSA</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="card">
+          <div class="imgBx">
+            <img
+              src="/assets/airJsouthBeach.png"
+              alt="nike-air-shoe"
+            />
+          </div>
+
+          <div class="contentBx">
+            <h2>AIR JORDAN SOUTH</h2>
+            <a href="detail_product.html" target="_blank">VER DETALLES</a>
+            <a href="shop_cart.html" target="_blank" class="addToCartBtn"
+              >AGREGAR A LA BOLSA</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="card">
+          <div class="imgBx">
+            <img
+              src="/assets/adidashalcon.png"
+              alt="nike-air-shoe"
+            />
+          </div>
+
+          <div class="contentBx">
+            <h2>ADIDAS FALCON</h2>
+            <a href="detail_product.html" target="_blank">VER DETALLES</a>
+            <a href="shop_cart.html" target="_blank" class="addToCartBtn"
+              >AGREGAR A LA BOLSA</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="card">
+          <div class="imgBx">
+            <img
+              src="/assets/dolceGspace.png"
+              alt="nike-air-shoe"
+            />
+          </div>
+
+          <div class="contentBx">
+            <h2>DOLCE GABANNA SPACE</h2>
+            <a href="detail_product.html" target="_blank">VER DETALLES</a>
+            <a href="shop_cart.html" target="_blank" class="addToCartBtn"
+              >AGREGAR A LA BOLSA</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="card">
+          <div class="imgBx">
+            <img
+              src="/assets/trico.png"
+              alt="nike-air-shoe"
+            />
+          </div>
+
+          <div class="contentBx">
+            <h2>NIKE AIR MAX 95</h2>
+            <a href="detail_product.html" target="_blank">VER DETALLES</a>
+            <a href="shop_cart.html" target="_blank" class="addToCartBtn"
+              >AGREGAR A LA BOLSA</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="card">
+          <div class="imgBx">
+            <img
+              src="/assets/ozwee.png"
+              alt="nike-air-shoe"
+            />
+          </div>
+
+          <div class="contentBx">
+            <h2>ADIDAS OZWEEGO</h2>
+            <a href="detail_product.html" target="_blank">VER DETALLES</a>
+            <a href="shop_cart.html" target="_blank" class="addToCartBtn"
+              >AGREGAR A LA BOLSA</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="all">
+        <div class="left">
+          <div class="text">PQR Automatizado</div>
+        </div>
+        <div class="center">
+          <div class="explainer"><span>CONOCE MAS</span></div>
+          <div class="text">Envios Mundiales</div>
+          </div>
+        <div class="right">
+          <div class="text">Transaccion Encriptada</div>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+      <div class="social-media">
+        <a href="https://www.instagram.com/" class="icono"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/?lang=es" class="icono"
+          ><i class="fa-brands fa-x-twitter"></i
+        ></a>
+        <a href="https://www.whatsapp.com/?lang=es_LA" class="icono"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+      </div>
+      <div class="referencias">
+        <a href="#" target="_blank">TERMINOS Y CONDICIONES</a>
+        <a href="#" target="_blank">POLITICAS DE PRIVACIDAD</a>
+      </div>
+      <div class="referencias2">
+        <a href="#" target="_blank">GUIA DE TALLAS</a>
+        <a href="#" target="_blank">SOBRE NOSOTROS</a>
+        <a href="#" target="_blank">PREGUNTAS FRECUENTES</a>
+        <a href="#" target="_blank">GARANTIAS Y DEVOLUCIONES</a>
+      </div>
+      <p>&copy; 2024 BY sebastian</p>
+    </footer>
+  </body>
+</html>
